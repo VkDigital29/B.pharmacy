@@ -30,6 +30,55 @@
   background: #04AA6D;
   width: 0%;
 	}</style>
+	<style>
+	@import url('//fonts.googleapis.com/css?family=Roboto:500');
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+
+body {
+  padding: 64px 0;
+  text-align: center;
+}
+
+
+.face-button {
+  $height: 64px;
+  $accentColor: #e43;
+  
+  height: $height;
+  display: inline-block;
+  border: 3px solid $accentColor;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: $accentColor;
+  overflow: hidden;
+  
+  .icon {
+    margin-right: 6px;
+  }
+  
+  .face-primary,
+  .face-secondary {
+    display: block;
+    padding: 0 32px;
+    line-height: $height;
+    transition: margin .4s;
+  }
+  
+  .face-primary {
+    background-color: $accentColor;
+    color: #fff;
+  }
+  
+  &:hover .face-primary {
+    margin-top: -$height;
+  }
+}
+</style>
 	</head>
 <body>
 	<div class="header">
@@ -51,7 +100,19 @@
     </ul>
   </nav> 
 </div>
+<a class="face-button" href="https://allvedawisdom.files.wordpress.com/2022/12/1st-semester-pci-bpharmacy-syllabus-studypharmacy.pdf">
 
+  <div class="face-primary">
+    <span class="icon fa fa-cloud"></span>
+    Download
+  </div>
+  
+  <div class="face-secondary">
+    <span class="icon fa fa-hdd-o"></span>
+    Size: 52 kt
+  </div>
+
+</a>
 <div class="menu-bg" id="menu-bg"></div>
 	<script>
 	function menuOnClick() {
