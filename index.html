@@ -8,84 +8,8 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPlayfair%20Display%3A400%2C700&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPlayfair%20Display%3A400%2C700&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPlayfair%20Display%3A400%2C700&#038;display=swap" /></noscript>
 	<link rel="stylesheet" type="text/css" href="menu.css">
 	<link rel="stylesheet" type="text/css" href="buttons.css">
-<style>/* Style the header: fixed position (always stay at the top) */
-.header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
-/* The progress container (grey background) */
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 8px;
-  background: #04AA6D;
-  width: 0%;
-	}</style>
-	<style>
-	@import url('//fonts.googleapis.com/css?family=Roboto:500');
-
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
-
-
-body {
-  padding: 64px 0;
-  text-align: center;
-}
-
-
-.face-button {
-  $height: 64px;
-  $accentColor: #e43;
-  
-  height: $height;
-  display: inline-block;
-  border: 3px solid $accentColor;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: center;
-  text-decoration: none;
-  color: $accentColor;
-  overflow: hidden;
-  
-  .icon {
-    margin-right: 6px;
-  }
-  
-  .face-primary,
-  .face-secondary {
-    display: block;
-    padding: 0 32px;
-    line-height: $height;
-    transition: margin .4s;
-  }
-  
-  .face-primary {
-    background-color: $accentColor;
-    color: #fff;
-  }
-  
-  &:hover .face-primary {
-    margin-top: -$height;
-  }
-}
-</style>
 	</head>
 <body>
-	<div class="header">
-  <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div>
-</div>
 	<div id="menu">
   <div id="menu-bar" onclick="menuOnClick()">
     <div id="bar1" class="bar"></div>
@@ -183,15 +107,5 @@ body {
   document.getElementById("nav").classList.toggle("change");
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
-	</script>
-<script<// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}</script>
 </body>
 </html>
