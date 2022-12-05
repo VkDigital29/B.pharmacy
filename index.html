@@ -7,29 +7,6 @@
   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPlayfair%20Display%3A400%2C700&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPlayfair%20Display%3A400%2C700&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C700%7CPlayfair%20Display%3A400%2C700&#038;display=swap" /></noscript>
 	<link rel="stylesheet" type="text/css" href="menu.css">
-	<style>.loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid blue;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  border-left: 16px solid pink;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-</style>
 	
 <style>/* Style the header: fixed position (always stay at the top) */
 .header {
@@ -55,7 +32,6 @@
 	}</style>
 	</head>
 <body>
-	<div class="loader"></div>
 	<div class="header">
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
@@ -71,24 +47,13 @@
   <nav class="nav" id="nav">
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Blog</a></li>
+      <li><a href="#">Books</a></li>
+      <li><a href="#">Notes</a></li>
     </ul>
   </nav> 
 </div>
 
 <div class="menu-bg" id="menu-bg"></div>
-	<script>var myVar;
-
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}</script>
 	<script>
 	function menuOnClick() {
   document.getElementById("menu-bar").classList.toggle("change");
