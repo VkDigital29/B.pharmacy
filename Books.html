@@ -56,6 +56,23 @@ body {
 </style>
 </head>
 <body>
+	
+	<div class="header">
+	<div id="menu">
+  <div id="menu-bar" onclick="menuOnClick()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div>
+  </div>
+  <nav class="nav" id="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="Books.html">Books</a></li>
+      <li><a href="#">Notes</a></li>
+    </ul>
+  </nav> 
+</div>
+<div class="menu-bg" id="menu-bg"></div>
 	<header id="masthead" class="site-header" role="banner">
 
 			<div class="custom-header">
@@ -340,6 +357,10 @@ body {
 </ul>
 </div>
 	</div>
-
+	<script>function menuOnClick() {
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+	}</script>
 </body>
 </html>
