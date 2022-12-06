@@ -216,6 +216,14 @@ header .navbar a:hover{
 .notes .content{
   flex:1 1 40rem;
 }
+notes .image{
+  flex:1 1 40rem;
+}
+
+.notes .image img{
+  width:100%;
+}
+
 
 .notes .content h1{
   color:transparent;
