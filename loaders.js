@@ -1,0 +1,2 @@
+if(location.pathname.includes("index.html")){location.replace(location.pathname.split("index.html")[0]+(location.search||"")+(location.hash||""));}
+let mainTitle=document.title;document.title="Loading... | Carewell Pharma";document.body.classList.add("overflow-h");window.addEventListener("load",()=>{document.title=mainTitle;document.body.classList.remove("overflow-h");document.querySelector(".preloader").classList.add("done");setTimeout(()=>{document.querySelector(".preloader").remove();},200);});
