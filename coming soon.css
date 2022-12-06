@@ -1,0 +1,12 @@
+
+
+        h1 {
+            font-size: 4em;
+            font-weight: normal;
+            text-transform: lowercase;
+        }
+
+        svg {
+            width: 250px;
+            height: 250px;
+        }
