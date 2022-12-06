@@ -1,109 +1,126 @@
-/* mockup code */
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 body {
-		background: #f5f5f5;
-		color: #ffffff;
-		display: table-cell;
-		margin: 0;
-		text-align: center;
-		vertical-align: middle;
+font-weight:400;		
+font-family: 'Lato', sans-serif;
+font-size: 15px;
+line-height: 1.428571429;
+color: #333333;
+background-color: #323641;
 }
 
-a {
-		background: #ffffff;
-		border: solid 1px #e6e6e6;
-		border-radius: 2px;
-		display: inline-block;
-		height: 100px;
-		line-height: 100px;
-		margin: 5px;
-		position: relative;
-		text-align: center;
-		vertical-align: middle;
-		width: 100px;
+a{text-decoration:none;}
+a:focus{outline:thin dotted;text-decoration:none;}
+a:active,a:hover{outline:0}
+
+.side-menu {
+border: 1px solid #14161C;
+background-color: #3b3f4d;
+border-radius: 4px;
+padding: 0px 0px;
+width: 30%;
+margin: 5em auto;
+list-style: none;
+-webkit-box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.4),0px 1px 2px 0px rgba(255,255,255,0.2);
+box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.4),0px 1px 2px 0px rgba(255,255,255,0.2);
 }
 
-a span {
-		background: #f2594b;
-		border-radius: 4px;
-		color: #ffffff;
-		display: inline-block;
-		font-size: 11px;
-		font-weight: 700;
-		line-height: normal;
-		padding: 5px 10px;
-		position: relative;
-		text-transform: uppercase;
-		z-index: 1;
+.side-menu>li:last-child a {
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+border-bottom: none;
 }
 
-a span:last-child {
-		margin-left: -20px;
+.side-menu>li:first-child a {
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+-webkit-box-shadow: none;
+box-shadow: none;
 }
 
-a:before,
-a:after {
-		background: #ffffff;
-		border: solid 3px #9fb4cc;
-		border-radius: 4px;
-		content: '';
-		display: block;
-		height: 35px;
-		left: 50%;
-		margin: -17px 0 0 -12px;
-		position: absolute;
-		top: 50%;
-		/*transform:translate(-50%,-50%);*/
-		
-		width: 25px;
+.side-menu>li a {
+display: block;
+border-radius: 0px;
+border-bottom: 1px solid #292D38;
+-webkit-box-shadow: inset 0px 1px 0px 0px #434756;
+box-shadow: inset 0px 1px 0px 0px #434756;
+color: #fff;
+font-size: 16px;
+font-weight: 300;
+text-transform: uppercase;
+padding: 15px 18px;
 }
 
-a:hover:before,
-a:hover:after {
-		background: #e2e8f0;
-}
-/*a:before{transform:translate(-30%,-60%);}*/
-
-a:before {
-		margin: -23px 0 0 -5px;
-}
-
-a:hover {
-		background: #e2e8f0;
-		border-color: #9fb4cc;
+.side-menu>li a:hover {
+display: block;
+padding: 15px 18px;
+margin: 0;
+list-style: none;
+-webkit-box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.4),0px 1px 2px 0px rgba(255,255,255,0.2);
+box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.4),0px 1px 2px 0px rgba(255,255,255,0.2);
+background-color: #8F4949;
 }
 
-a:active {
-		background: #dae0e8;
-		box-shadow: inset 0 2px 2px rgba(0, 0, 0, .25);
+.side-menu.side-menu-notifications .badge {
+background-color: #B5A370;
+color: #4F4836;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 700;
+-webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5),inset 0px 1px 2px 0px rgba(255,255,255,0.2);
+box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5),inset 0px 1px 2px 0px rgba(255,255,255,0.2);
+padding: 5px 10px;
 }
 
-a span:first-child {
-		display: none;
+.side-menu>li a .badge{
+background-color: #2e323f;
+color: #81889a;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 700;
+-webkit-box-shadow: inset 1px 1px 2px 0px rgba(0,0,0,0.5),0px 1px 2px 0px rgba(255,255,255,0.15);
+box-shadow: inset 1px 1px 2px 0px rgba(0,0,0,0.5),0px 1px 2px 0px rgba(255,255,255,0.15);
+padding: 5px 10px;
+margin-top: 2px;
 }
 
-a:hover span:first-child {
-		display: inline-block;
+.alert-animated {
+background-color: #B5A370;
+animation: animated-alert 1s;
+-moz-animation: animated-alert 1s;
+-webkit-animation: animated-alert 1s;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
 }
 
-a:hover span:last-child {
-		display: none;
-}
-/* custom code for the demo */
-
-html,
-button,
-input,
-select,
-textarea {
-		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+.pull-right {
+float: right !important;
 }
 
-html,
-body {
-		height: 100%;
-		width: 100%;
+.badge {
+display: inline-block;
+min-width: 10px;
+padding: 3px 7px;
+font-size: 12px;
+font-weight: bold;
+color: #ffffff;
+line-height: 1;
+vertical-align: baseline;
+white-space: nowrap;
+text-align: center;
+background-color: #999999;
+border-radius: 10px;
 }
 
-html {
-		display: table;
+.side-menu>li a i {
+margin-right: 15px;
+padding-right: 15px;
+font-size: 25px;
+width: 45px;
+color: #fff;
+display: inline-block;
+text-align: center;
+border-right: 1px solid #292D38;
+-webkit-box-shadow: 1px 0px 0px 0px #434756;
+box-shadow: 1px 0px 0px 0px #434756;
 }
