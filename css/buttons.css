@@ -1,48 +1,34 @@
-
-@import url('//fonts.googleapis.com/css?family=Roboto:500');
-
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
-
-
-body {
-  padding: 64px 0;
-  text-align: center;
+a {
+  text-decoration:none;
+  color:#FFF;
+}
+.rainbow-button {
+  width:calc(20vw + 6px);
+  height:calc(8vw + 6px);
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-transform:uppercase;
+  font-size:3vw;
+  font-weight:bold;
+}
+.rainbow-button:after {
+  content:attr(alt);
+  width:20vw;
+  height:8vw;
+  background-color:#191919;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.rainbow-button:hover {
+  animation:slidebg 2s linear infinite;
 }
 
-
-.face-button {
-  $height: 64px;
-  $accentColor: #e43;
-  
-  height: $height;
-  display: inline-block;
-  border: 3px solid $accentColor;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: center;
-  text-decoration: none;
-  color: $accentColor;
-  overflow: hidden;
-  
-  .icon {
-    margin-right: 6px;
-  }
-  
-  .face-primary,
-  .face-secondary {
-    display: block;
-    padding: 0 32px;
-    line-height: $height;
-    transition: margin .4s;
-  }
-  
-  .face-primary {
-    background-color: $accentColor;
-    color: #fff;
-  }
-  
-  &:hover .face-primary {
-    margin-top: -$height;
+@keyframes slidebg {
+  to {
+    background-position:20vw;
   }
 }
