@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Human Anatomy & Physiology - II</title>
+	<!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="css/buttons.css">
+	<link rel="stylesheet" type="text/css" href="css/edustyle.css">
+
+
+</head>
+<body>
+
+<script src="loaders.js" type="text/javascript"></script>
+    
+	<div class="container">
+
+<header>
+
+    <a href="#" class="logo">B.Pharmacy<span>Books & Notes</span></a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="notes.html">Notes</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+<img src="https://allvedawisdom.files.wordpress.com/2022/12/cropped-b.-pharmacy-books-notes.png" class="center">
+
+<div class="heading">
+	<a href="#">Human Anatomy & Physiology - II</a>
+        <ul>
+          <li><a href="#section1" class="under">Unit-I</a></li>
+          <li><a href="#section2" class="under">Unit-II</a></li>
+          <li><a href="#section3" class="under">Unit-III</a></li>
+          <li><a href="#section4" class="under">Unit-IV</a></li>
+          <li><a href="#section5" class="under">Unit-V</a></li>
+        </ul>
+      </div>
+      <section class="notes">
+<div class="content">
+<br>
+<br>
+<br>
+<br>
+<br>
+ <div id="section1" class="section1">
+       <h1> Unit &#8211; I</h1>
+<h3>1. Nervous System</h3>
+<p>
+Organization of nervous system, neuron, neuroglia, classification and properties of nerve fibre, electrophysiology, action potential, nerve impulse, receptors, synapse, neurotransmitters. Central nervous system: Meninges, ventricles of brain and cerebrospinal fluid.structure and functions of brain (cerebrum, brain stem, cerebellum), spinal cord (gross structure,
+functions of afferent and efferent nerve tracts,reflex activity)
+</p>
+	 <ul class="side-menu side-menu-notifications">
+    <li>
+      <a href="https://mega.nz/file/aT4EiBAZ#DF1Ro8GW8Orkq_4w8JLRMRVvPMAf4cMZM1BuJMxHLOc">
+        <i class="icon-cloud-download"></i> Download
+      </a>
+    </li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <div id="section2" class="section2">
+       <h1> Unit &#8211; II</h1>
+<h3>1. The Digestive System</h3>
+<p>Anatomy of GI Tract with special reference to anatomy and functions of stomach, ( Acid production in the stomach, regulation of acid production through parasympathetic nervous system, pepsin role in protein digestion) small intestine and large intestine, anatomy and functions of salivary glands, pancreas and liver, movements of GIT, digestion and absorption of
+nutrients and disorders of GIT.</p>
+<h3>2. Energetics</h3>
+<p class="unitDisc">
+Formation and role of ATP, Creatinine Phosphate and BMR.
+</p>
+	 <ul class="side-menu side-menu-notifications">
+    <li>
+      <a href="https://mega.nz/file/rCJVwaQL#YVD1_DYFOwoulPuVZhIvWx4rhOYJS5WeNRIzyAzAsdU">
+        <i class="icon-cloud-download"></i> Download
+      </a>
+    </li>
+</ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <div id="section3" class="section3">
+       <h1> Unit &#8211; III</h1>
+<h3>1. Respiratory System </h3>
+<p>Anatomy of respiratory system with special reference to anatomy of lungs, mechanism of respiration, regulation of respiration
+<br />
+<br />
+Lung Volumes and capacities transport of respiratory gases, artificial respiration, and resuscitation methods.
+</p></p>
+<h3>2. The Urinary System</h3>
+<p>Anatomy of urinary tract with special reference to anatomy of kidney and nephrons, functions of kidney and urinary tract, physiology of urine formation, micturition reflex and role of kidneys in acid base balance, role of RAS in kidney and disorders of kidney.</p>
+	 <ul class="side-menu side-menu-notifications">
+    <li>
+      <a href="https://mega.nz/file/fT4X2IjA#5W3zLkd2S-V2WVOWm2b4uGqGUayBgHQd6TXiw86xy7w">
+        <i class="icon-cloud-download"></i> Download
+      </a>
+    </li>
+</ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="section4" class="section4">
+       <h1> Unit &#8211; IV</h1>
+<h3>1. The Endocrine System</h3>
+<p>Classification of hormones, mechanism of hormone action, structure and functions of pituitary gland, thyroid gland, parathyroid gland, adrenal gland, pancreas, pineal gland, thymus and their disorders.</p>
+<ul class="side-menu side-menu-notifications">
+    <li>
+      <a href="https://mega.nz/file/DKJEjIBC#JBYIRj5DnGUkSmJy2ijC8dktlJ36mwFL7JxW9WDuyh8">
+        <i class="icon-cloud-download"></i> Download
+      </a>
+    </li>
+</ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="section5" class="section5">
+       <h1> Unit &#8211; V</h1>
+<h3>1. Reproductive System</h3>
+<p>Anatomy of male and female reproductive system, Functions of male and female reproductive system, sex hormones, physiology of menstruation, fertilization, spermatogenesis, oogenesis, pregnancy and parturition</p>
+<h3>2. Genetics</h3>
+<p> Chromosomes, genes and DNA, protein synthesis, genetic pattern of inheritance</p>
+<ul class="side-menu side-menu-notifications">
+    <li>
+      <a href="https://mega.nz/file/yDIlESwB#Y7eKfClxLm6yjwbjYMT1mrmrAHL0Jb6587yVbIryvpc">
+        <i class="icon-cloud-download"></i> Download
+      </a>
+    </li>
+</ul>
+</div>
+</div>   
+</section>  
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="notes.html">Notes</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact us</h3>
+           <p> <i class="fas fa-phone"></i> +91-8378836293 </p>
+           <p> <i class="fas fa-envelope"></i> kulkarnivishal308@gmail.com </p>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> VkDigital </span> | all rights reserved </div>
+
+</section>
+	      <script src="eduscript.js"></script>
+</body>
+</html>
