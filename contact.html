@@ -40,42 +40,21 @@
     <img src="img/contact-img.svg" alt="">
 </div>
 
-<div class="container">
-        <div class="row">
-            <div class="col-lg-6 m-auto">
-                <div class="card mt-5">
-                    <div class="card-title">
-                        <h2 class="text-center py-2"> Contact Us </h2>
-                        <hr>
-                        <?php 
-                            $Msg = "";
-                            if(isset($_GET['error']))
-                            {
-                                $Msg = " Please Fill in the Blanks ";
-                                echo '<div class="alert alert-danger">'.$Msg.'</div>';
-                            }
+<form action="" method="POST">
 
-                            if(isset($_GET['success']))
-                            {
-                                $Msg = " Your Message Has Been Sent ";
-                                echo '<div class="alert alert-success">'.$Msg.'</div>';
-                            }
-                        
-                        ?>
-                    </div>
-                    <div class="card-body">
-                        <form action="process.php" method="post">
-                            <input type="text" name="UName" placeholder="User Name" class="form-control mb-2">
-                            <input type="email" name="Email" placeholder="Email" class="form-control mb-2">
-                            <input type="text" name="Subject" placeholder="Subject" class="form-control mb-2">
-                            <textarea name="msg" class="form-control mb-2" placeholder="Write The Message"></textarea>
-                            <button class="btn btn-success" name="btn-send"> Send </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="inputBox">
+        <p>Name</p><input type="text" placeholder="name"><br><br><br>
+        <p>Email</p><input type="email" placeholder="email">
     </div>
+
+    <p>Subject</p><input type="text" placeholder="subject" class="box">
+
+    <p>Message</p><textarea placeholder="message" name="message" id="" cols="30" rows="10"></textarea>
+
+    <input type="submit" class="btn" value="send">
+
+</form>
+
 
 </section>
 
