@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +36,56 @@
 <img src="img/logo.svg" class="center">
 
   <body>
-     
+    <div class="wrapper">
+        <div class="title-text">
+           <div class="title login">
+              Login Form
+           </div>
+           <div class="title signup">
+              Signup Form
+           </div>
+        </div>
+        <div class="form-container">
+           <div class="slide-controls">
+              <input type="radio" name="slide" id="login" checked>
+              <input type="radio" name="slide" id="signup">
+              <label for="login" class="slide login">Login</label>
+              <label for="signup" class="slide signup">Signup</label>
+              <div class="slider-tab"></div>
+           </div>
+           <div class="form-inner">
+            <form action="#" class="login">
+                <div class="field">
+                   <input type="text" placeholder="Email Address" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Password" required>
+                </div>
+                <div class="pass-link">
+                   <a href="#">Forgot password?</a>
+                </div>
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" value="Login">
+                </div>
+                <div class="signup-link">
+                   Not a member? <a href="">Signup now</a>
+                </div>
+             </form>
+           <form action="" method="post" enctype="multipart/form-data" class="Register">
+           <h3>register now</h3>
+           <p>your name <span>*</span></p>
+           <input type="text" name="name" placeholder="enter your name" required maxlength="50" class="box">
+           <p>your email <span>*</span></p>
+           <input type="email" name="email" placeholder="enter your email" required maxlength="50" class="box">
+           <p>your password <span>*</span></p>
+           <input type="password" name="pass" placeholder="enter your password" required maxlength="20" class="box">
+           <p>confirm password <span>*</span></p>
+           <input type="password" name="c_pass" placeholder="confirm your password" required maxlength="20" class="box">
+           <p>select profile <span>*</span></p>
+           <input type="file" accept="image/*" required class="box">
+           <input type="submit" value="register new" name="submit" class="btn">
+        </form>
 <!-- footer section  -->
 
 <section class="footer">
