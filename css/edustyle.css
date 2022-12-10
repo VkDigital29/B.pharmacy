@@ -303,7 +303,7 @@ notes .image{
 }
 .foryou .boxes .box{
   margin:0;
-  width:calc(100% / 3 - 20px);
+  width:75%;
   text-align: center;
   border-radius: 12px;
   padding:30px 10px;
