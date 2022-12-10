@@ -317,8 +317,8 @@ notes .image{
   color:var(--white-color);
 }
 .foryou .boxes .box .icon{
-  height:50px;
-  width:50px;
+  height:30px;
+  width:30px;
   background: var(--primary-color);
   border-radius: 50%;
   text-align: center;
