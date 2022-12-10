@@ -296,6 +296,54 @@ notes .image{
   height: 20rem;
   resize: none;
 }
+.foryou .boxes{
+   display:flex; 
+   flex-wrap: wrap;
+   justify-content:space-between;
+}
+.foryou .boxes .box{
+  margin:20px 0;
+  width:calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding:30px 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  cursor:default;
+  transition: all 0.4s ease;
+}
+.foryou .boxes .box:hover{
+  background: var(--primary-color);
+  color:var(--white-color);
+}
+.foryou .boxes .box .icon{
+  height:50px;
+  width:50px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color:var(--white-color);
+  margin:0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+  background:var(--white-color);
+  color:var(--primary-color);
+}
+.foryou .boxes .box:hover .topic,
+.foryou .boxes .box:hover p{
+  color:var(--white-color);
+  transition: all 0.4s ease;
+}
+
+
+
+
+
+
+
+
 
 
 
