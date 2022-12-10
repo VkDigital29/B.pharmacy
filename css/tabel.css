@@ -1,4 +1,4 @@
-.AppFormTable {
+.book .AppFormTable {
     width: 100%;
     padding: 0 5px;
     font-size: 11px;
@@ -9,7 +9,7 @@
     border-radius: 5px;
 }
 
-    .AppFormTable th {
+    .book.AppFormTable th {
         font-size: 14px;
         font-weight: 500;
         color: white;
@@ -22,7 +22,7 @@
         border-color: #F0F0F0;
     }
 
-    .AppFormTable .head {
+ .book   .AppFormTable .head {
         font-size: 12px;
         font-weight: bold;
         color: #000000;
@@ -33,14 +33,14 @@
         text-align: center;
     }
 
-    .AppFormTable td {
+   .book .AppFormTable td {
         color: #000000;
         border: 1px solid #d0e1f1;
         padding: 10px;
         font-size: 14px ;
     }
 
-    .AppFormTable input {
+ .book   .AppFormTable input {
         border: 1px solid #d9d9d9;
         font-size: 13px;
         height: 22px;
