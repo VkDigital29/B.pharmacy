@@ -10,3 +10,7 @@ window.onscroll = () =>{
   menu.classList.remove('fa-times');
   navbar.classList.remove('active');
 }
+
+  document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+  }, false);
