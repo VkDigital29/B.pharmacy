@@ -419,6 +419,56 @@ notes .image{
   color:var(--white-color);
   transition: all 0.4s ease;
 }
+.mcq{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  align-items: center;
+}
+
+.mcq .content{
+  flex:1 1 40rem;
+}
+.mcq .image{
+  flex:1 1 40rem;
+}
+
+.mcq .image img{
+  width:100%;
+}
+
+.mcq .content h1{
+  color:transparent;
+  background:var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 4rem;
+}
+.mcq .content h4{
+  color: black;
+  background-clip: text;
+  font-size: 1.7rem;
+}
+.mcq .content li{
+  padding:.5rem 0;
+  color: black;
+  background-clip: text;
+  font-size: 1.7rem;
+}
+.mcq .content .ans{
+  color :var(--pink);
+  font-size: 1.9rem;
+}
+.top {
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+  place-self:end;
+}
+
 
 
 
