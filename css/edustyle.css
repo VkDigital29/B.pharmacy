@@ -468,7 +468,7 @@ notes .image{
   border-radius: 100px;
   place-self:end;
 }
-
+.custom_alert{position:fixed;z-index:234564234567;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;bottom:1.2rem;-webkit-animation:alert_animate 1.4s forwards;animation:alert_animate 1.4s forwards;-webkit-transition:opacity 0.5s;transition:opacity 0.5s}.custom_alert.closed{opacity:0}.custom_alert .alert{margin:0}@-webkit-keyframes alert_animate{0%,7%,14%{-webkit-transform:translateX(-53%);transform:translateX(-53%)}4%,10%,16%,22%,100%{-webkit-transform:translateX(-50%);transform:translateX(-50%)}18%{-webkit-transform:translateX(-56%);transform:translateX(-56%)}}@keyframes alert_animate{0%,7%,14%{-webkit-transform:translateX(-53%);transform:translateX(-53%)}4%,10%,16%,22%,100%{-webkit-transform:translateX(-50%);transform:translateX(-50%)}18%{-webkit-transform:translateX(-56%);transform:translateX(-56%)}}
 
 
 
