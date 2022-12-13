@@ -13,4 +13,7 @@ window.onscroll = () =>{
 
   document.addEventListener("contextmenu", function(e) {
     e.preventDefault();
+    
+    alert("No!! No!!");
+
   }, false);
