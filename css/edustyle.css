@@ -487,8 +487,8 @@ notes .image{
 }
 
 .progress-bar {
-  height: 1rem;
-  background: blue;
+  height: 12px;
+  background: orangered;
   position: fixed;
   top: 0;
   left: 0;
