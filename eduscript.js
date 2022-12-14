@@ -14,6 +14,7 @@ document.addEventListener("contextmenu", function(e) {
     e.preventDefault();
 
     alert("Not Allowed!!");
+   }, false);
 
 window.alert = (text = "", theme = "danger") => {
   const getElems = () => document.querySelectorAll(".custom_alert");
