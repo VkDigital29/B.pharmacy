@@ -483,7 +483,16 @@ notes .image{
  -webkit-transform:translateX(-53%);
  transform:translateX(-53%)}4%,10%,16%,22%,100%
  {-webkit-transform:translateX(-50%);
- transform:translateX(-50%)}18%{-webkit-transform:translateX(-56%);transform:translateX(-56%)}}@keyframes alert_animate{0%,7%,14%{-webkit-transform:translateX(-53%);transform:translateX(-53%)}4%,10%,16%,22%,100%{-webkit-transform:translateX(-50%);transform:translateX(-50%)}18%{-webkit-transform:translateX(-56%);transform:translateX(-56%)}}
+ transform:translateX(-50%)}18%{
+ -webkit-transform:translateX(-56%);
+ transform:translateX(-56%)}}
+@keyframes alert_animate{0%,7%,14%{
+ -webkit-transform:translateX(-53%);
+ transform:translateX(-53%)}4%,10%,16%,22%,100%
+ {-webkit-transform:translateX(-50%);
+ transform:translateX(-50%)}18%
+ {-webkit-transform:translateX(-56%);
+ transform:translateX(-56%)}}
 .back-to-top {
   position: fixed;
   right: 2rem;
