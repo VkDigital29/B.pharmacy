@@ -528,7 +528,16 @@ notes .image{
   top: 0;
   left: 0;
 }
-
+.alert-danger{
+--bs-alert-color:#842029;
+--bs-alert-bg:#f8d7da;
+--bs-alert-border-color:#f5c2c7}
+.alert-danger .alert-link{color:#6a1a21}
+.alert-light{
+--bs-alert-color:#636464;
+--bs-alert-bg:#fefefe;
+--bs-alert-border-color:#fdfdfe}
+.alert-light .alert-link{color:#4f5050}
 
 
 
