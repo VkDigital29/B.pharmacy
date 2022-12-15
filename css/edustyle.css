@@ -460,6 +460,7 @@ notes .image{
 }
 .custom_alert{
  position:fixed;
+ font-size:12px;
  z-index:234564234567;
  left:50%;
  -webkit-transform:translateX(-50%);
