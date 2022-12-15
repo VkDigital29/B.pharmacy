@@ -2,6 +2,7 @@
 :root{
   --violet:#6c5ce7;
   --pink:#FC427B;
+  --bs-danger:#dc3545;
   --gradient:linear-gradient(90deg, var(--violet), var(--pink));
 }
 
