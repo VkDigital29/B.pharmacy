@@ -2381,8 +2381,7 @@ S) Ion selective</h4><ol type="a">
 <li> Secondary reference electrode</li>
 <li class="ans"> Both A and b</li>
 </ol><div class="wp-block-spacer" style="height: 25px;" aria-hidden="true"></div>
-<div id="editor"></div>
-	    <a  href="#" class="btn" id="cmd">Download Pdf</a>
+<button onclick="window.print(); return false;" />
 <!-- footer section  -->
 
 <section class="footer">
@@ -2416,23 +2415,6 @@ S) Ion selective</h4><ol type="a">
   </svg>
 </button>
 </div>
-<script>
-    var doc = new jsPDF();
-var specialElementHandlers = {
-    '#editor': function (element, renderer) {
-        return true;
-    }
-};
-
-$('#cmd').click(function () {
-    doc.fromHTML($('#content').html(), 15, 15, {
-        'width': 170,
-            'elementHandlers': specialElementHandlers
-    });
-    doc.save('sample-file.pdf');
-});
-
-</script>
 <script src="eduscript.js"></script>
 </body>
 </html>      
