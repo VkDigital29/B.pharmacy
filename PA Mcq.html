@@ -43,7 +43,7 @@
 
 <!-- mcq section -->   
 <section class="mcq"> 
-<div class="content" id="content">
+<div class="content">
     <div class="section" id="section1">
         <h1>Part - I</h1>
     <div class="wp-block-spacer" style="height:100px;" aria-hidden="true"></div>
@@ -2381,8 +2381,6 @@ S) Ion selective</h4><ol type="a">
 <li> Secondary reference electrode</li>
 <li class="ans"> Both A and b</li>
 </ol><div class="wp-block-spacer" style="height: 25px;" aria-hidden="true"></div>
-	    <div id="editor"></div>
-<button id="cmd">generate PDF</button>
 	    
 <!-- footer section  -->
 
@@ -2417,22 +2415,6 @@ S) Ion selective</h4><ol type="a">
   </svg>
 </button>
 </div>
-	<script>
-		var doc = new jsPDF();
-var specialElementHandlers = {
-    '#editor': function (element, renderer) {
-        return true;
-    }
-};
-
-$('#cmd').click(function () {
-    doc.fromHTML($('#content').html(), 15, 15, {
-        'width': 170,
-            'elementHandlers': specialElementHandlers
-    });
-    doc.save('sample-file.pdf');
-});
-	</script>
 	
 <script src="eduscript.js"></script>
 </body>
