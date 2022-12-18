@@ -450,9 +450,11 @@ notes .image{
 }
 .mcq .content li{
   padding:.5rem 0;
-  color: black;
-  background-clip: text;
   font-size: 1.7rem;
+  color:transparent;
+  background:var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 .mcq .content .ans{
   color :var(--pink);
