@@ -98,3 +98,15 @@ function submitted(event) {
 }
 
 f.addEventListener('submit', submitted);
+function encodeQuery(data){ 
+
+    let query = books
+
+    for (let d in data.params) 
+
+         query += encodeURIComponent(d) + '='
+
+              + encodeURIComponent(data.params[d]) + '&'; 
+
+    return query.slice(0, -1) 
+} 
