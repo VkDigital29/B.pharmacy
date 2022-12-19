@@ -93,7 +93,7 @@ const site = 'https://vkdigital29.github.io/B.pharmacy/';
 function submitted(event) {
   event.preventDefault();
   const url = site + '+' + q.value;
-  const win = window.open(url, 'https://vkdigital29.github.io/B.pharmacy/');
+  const win = window.open(url, '_blank');
   win.focus();
 }
 
