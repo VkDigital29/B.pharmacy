@@ -74,3 +74,27 @@ document.addEventListener("scroll", () => {
 });
 
 backToTopButton.addEventListener("click", goToTop);
+
+
+
+
+
+
+
+
+
+
+
+
+const f = document.getElementById('form');
+const q = document.getElementById('query');
+const site = 'https://vkdigital29.github.io/B.pharmacy/';
+
+function submitted(event) {
+  event.preventDefault();
+  const url = site + '+' + q.value;
+  const win = window.open(url, 'https://vkdigital29.github.io/B.pharmacy/');
+  win.focus();
+}
+
+f.addEventListener('submit', submitted);
