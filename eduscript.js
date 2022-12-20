@@ -93,20 +93,8 @@ const site = 'https://vkdigital29.github.io/B.pharmacy/';
 function submitted(event) {
   event.preventDefault();
   const url = site + '+' + q.value;
-  const win = window.open(url, '_blank');
+  const win = window.open(url, 'https://vkdigital29.github.io/B.pharmacy/books.html');
   win.focus();
 }
 
 f.addEventListener('submit', submitted);
-function encodeQuery(data){ 
-
-    let query = books
-
-    for (let d in data.params) 
-
-         query += encodeURIComponent(d) + '='
-
-              + encodeURIComponent(data.params[d]) + '&'; 
-
-    return query.slice(0, -1) 
-} 
