@@ -96,31 +96,3 @@ animation: animated-alert 1s;
 .pull-right {
 float: right !important;
 }
-
-.badge {
-display: inline-block;
-min-width: 10px;
-padding: 3px 7px;
-font-size: 12px;
-font-weight: bold;
-color: #ffffff;
-line-height: 1;
-vertical-align: baseline;
-white-space: nowrap;
-text-align: center;
-background-color: #999999;
-border-radius: 10px;
-}
-
-.side-menu>li a i {
-margin-right: 15px;
-padding-right: 15px;
-font-size: 25px;
-width: 45px;
-color: #fff;
-display: inline-block;
-text-align: center;
-border-right: 1px solid #292D38;
--webkit-box-shadow: 1px 0px 0px 0px #434756;
-box-shadow: 1px 0px 0px 0px #434756;
-}
